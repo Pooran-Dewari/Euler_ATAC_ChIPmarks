@@ -11,6 +11,10 @@ Input required
 
 Keep .sh and .R scripts in the same directory as above Input files & just run the .sh script on bash
 
+Choice of .sh files:
+For narrowPeaks H3K27ac and H3K4me3 -> use Euler_ATAC_ChIP_broadPeaks.sh
+For broadPeaks H3K27me3 and H3K4me1 -> use Euler_ATAC_ChIP_narrowPeaks.sh
+
 Please note Euler venn diagrams can be misleading if too many items to overlap
 (fitted values look very different from original when euler makes the object), therefore, to simplify the venn,
 this scipt only find overlap between atac & top, atac & mid, and atac & bottom peaks and ignores other combinations.
