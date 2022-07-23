@@ -11,7 +11,7 @@ Input required
 
 Keep .sh and .R scripts in the same directory as above Input files & just run the .sh script on bash
 
-Choice of .sh files: \n
+Choice of .sh files: \
 For narrowPeaks H3K27ac and H3K4me3 -> use Euler_ATAC_ChIP_broadPeaks.sh
 For broadPeaks H3K27me3 and H3K4me1 -> use Euler_ATAC_ChIP_narrowPeaks.sh
 
